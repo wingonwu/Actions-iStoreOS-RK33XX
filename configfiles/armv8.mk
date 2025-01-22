@@ -93,3 +93,13 @@ define Device/rk3399_tpm312
   IMAGE/sysupgrade.img.gz := boot-common | boot-script | pine64-img | gzip | append-metadata
 endef
 TARGET_DEVICES += rk3399_tpm312
+
+define Device/rk3399-firefly-aioc-ai
+  DEVICE_VENDOR := RK3399
+  DEVICE_MODEL := AIO-3399C-AI
+  SOC := rk3399
+  SUPPORTED_DEVICES := rk3399,aioc-ai
+  UBOOT_DEVICE_NAME := firefly-aioc-ai-rk3399
+  IMAGE/sysupgrade.img.gz := boot-common | boot-script | pine64-img | gzip | append-metadata
+endef
+TARGET_DEVICES += rk3399-firefly-aioc-ai
