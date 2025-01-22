@@ -91,11 +91,39 @@ cp -f $GITHUB_WORKSPACE/configfiles/rk3399-opp.dtsi target/linux/rockchip/armv8/
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-r08.dts target/linux/rockchip/armv8/files/arch/arm64/boot/dts/rockchip/rk3399-r08.dts
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-tpm312.dts target/linux/rockchip/armv8/files/arch/arm64/boot/dts/rockchip/rk3399-tpm312.dts
 
+# 添加 AIO-3399-AI dts 文件
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aio-lvds.dts target/linux/rockchip/dts/rk3399-firefly-aio-lvds.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aio.dts target/linux/rockchip/dts/rk3399-firefly-aio.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aioc-ai-lvds.dts target/linux/rockchip/dts/rk3399-firefly-aioc-ai-lvds.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aioc-ai.dts target/linux/rockchip/dts/rk3399-firefly-aioc-ai.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aioc-lvds.dts target/linux/rockchip/dts/rk3399-firefly-aioc-lvds.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aioc-mipi.dts target/linux/rockchip/dts/rk3399-firefly-aioc-mipi.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aioc.dts target/linux/rockchip/dts/rk3399-firefly-aioc.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-core.dtsi target/linux/rockchip/dts/rk3399-firefly-core.dtsi
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-linux.dts target/linux/rockchip/dts/rk3399-firefly-linux.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-port.dtsi target/linux/rockchip/dts/rk3399-firefly-port.dtsi
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-linux.dtsi target/linux/rockchip/dts/rk3399-linux.dtsi
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-vop-clk-set.dtsi target/linux/rockchip/dts/rk3399-vop-clk-set.dtsi
+
 
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399.dtsi package/boot/uboot-rockchip/src/arch/arm/dts/rk3399.dtsi
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-opp.dtsi package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-opp.dtsi
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-r08.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-r08.dts
 cp -f $GITHUB_WORKSPACE/configfiles/rk3399-tpm312.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-tpm312.dts
+
+# 添加 AIO-3399-AI dts 文件
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aio-lvds.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-firefly-aio-lvds.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aio.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-firefly-aio.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aioc-ai-lvds.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-firefly-aioc-ai-lvds.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aioc-ai.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-firefly-aioc-ai.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aioc-lvds.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-firefly-aioc-lvds.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aioc-mipi.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-firefly-aioc-mipi.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-aioc.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-firefly-aioc.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-core.dtsi package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-firefly-core.dtsi
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-linux.dts package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-firefly-linux.dts
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-firefly-port.dtsi package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-firefly-port.dtsi
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-linux.dtsi package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-linux.dtsi
+cp -f $GITHUB_WORKSPACE/configfiles/rk3399-vop-clk-set.dtsi package/boot/uboot-rockchip/src/arch/arm/dts/rk3399-vop-clk-set.dtsi
 
 
 
